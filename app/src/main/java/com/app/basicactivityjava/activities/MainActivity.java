@@ -1,7 +1,8 @@
-package com.app.basicactivityjava;
+package com.app.basicactivityjava.activities;
 
 import android.os.Bundle;
 
+import com.app.basicactivityjava.R;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 

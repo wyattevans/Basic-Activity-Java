@@ -12,6 +12,7 @@ import androidx.navigation.fragment.NavHostFragment;
 import com.app.basicactivityjava.R;
 
 public class FirstFragment extends Fragment {
+    private final String simpleTAG = FirstFragment.class.getSimpleName();
 
     @Override
     public View onCreateView(

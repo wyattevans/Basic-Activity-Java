@@ -20,7 +20,7 @@ public class FirstFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
-        Log.d(simpleTAG, "onCreateView method hit.");
+        Log.d(simpleTAG, getString(R.string.on_create_method_hit));
         return inflater.inflate(R.layout.fragment_first, container, false);
     }
 

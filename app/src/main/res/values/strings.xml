@@ -11,4 +11,5 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="on_create_view_method_hit">onCreateView method hit.</string>
     <string name="on_create_method_hit">onCreate method hit.</string>
+    <string name="action_button_clicked">Action button clicked.</string>
 </resources>

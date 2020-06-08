@@ -1,6 +1,7 @@
 package com.app.basicactivityjava.fragments;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +20,7 @@ public class SecondFragment extends Fragment {
             LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState
     ) {
+        Log.d(simpleTAG, getString(R.string.on_create_view_method_hit));
         return inflater.inflate(R.layout.fragment_second, container, false);
     }
 

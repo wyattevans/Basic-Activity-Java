@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        Log.d(simpleTAG, "Options item selected.");
+        Log.d(simpleTAG, getString(R.string.options_item_selected));
         int id = item.getItemId();
 
         if (id == R.id.action_settings) {

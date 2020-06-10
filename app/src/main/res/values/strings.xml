@@ -13,4 +13,5 @@
     <string name="on_create_method_hit">onCreate method hit.</string>
     <string name="action_button_clicked">Action button clicked.</string>
     <string name="action">Action</string>
+    <string name="options_item_selected">Options item selected.</string>
 </resources>

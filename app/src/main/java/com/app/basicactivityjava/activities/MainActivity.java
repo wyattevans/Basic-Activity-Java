@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.d(simpleTAG, getString(R.string.action_button_clicked));
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, R.string.replace_own_action, Snackbar.LENGTH_LONG)
                         .setAction(R.string.action, null).show();
             }
         });

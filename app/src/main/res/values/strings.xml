@@ -15,4 +15,5 @@
     <string name="action">Action</string>
     <string name="options_item_selected">Options item selected.</string>
     <string name="replace_own_action">Replace with your own action</string>
+    <string name="options_menu_created">Options menu created.</string>
 </resources>

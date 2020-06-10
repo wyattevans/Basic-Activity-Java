@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        Log.d(simpleTAG, "Options menu created.");
+        Log.d(simpleTAG, getString(R.string.options_menu_created));
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }

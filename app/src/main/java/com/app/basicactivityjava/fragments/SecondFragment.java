@@ -26,7 +26,7 @@ public class SecondFragment extends Fragment {
 
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        Log.d(simpleTAG, "OnViewCreated method hit.");
+        Log.d(simpleTAG, getString(R.string.on_view_created));
 
         view.findViewById(R.id.button_second).setOnClickListener(new View.OnClickListener() {
             @Override

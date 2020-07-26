@@ -9,12 +9,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="on_create_view_method_hit">onCreateView method hit.</string>
-    <string name="on_create_method_hit">onCreate method hit.</string>
-    <string name="action_button_clicked">Action button clicked.</string>
     <string name="action">Action</string>
-    <string name="options_item_selected">Options item selected.</string>
     <string name="replace_own_action">Replace with your own action</string>
-    <string name="options_menu_created">Options menu created.</string>
-    <string name="on_view_created">OnViewCreated method hit.</string>
 </resources>
